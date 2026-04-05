@@ -1,0 +1,47 @@
+.my-card {
+  width: 190px;
+  background: rgb(188, 192, 97);
+  padding: .4em;
+  border-radius: 6px;
+}
+
+.my-card-image {
+  background-color: rgb(244, 13, 13);
+  width: 100%;
+  height: 130px;
+  border-radius: 6px 6px 0 0;
+}
+
+.my-card-image:hover {
+  transform: scale(0.98);
+}
+
+.my-category {
+  text-transform: uppercase;
+  font-size: 1em;
+  font-weight: 600;
+  color: rgb(7, 7, 7);
+  padding: 10px 7px 0 0;
+}
+
+.my-category:hover {
+  cursor: pointer;
+}
+
+.my-heading {
+  font-weight: 600;
+  color: rgb(6, 6, 6);
+  padding: 7px;
+}
+
+.my-heading:hover {
+  cursor: pointer;
+}
+
+.my-author {
+  color: gray;
+  font-weight: 400;
+  font-size: 11px;
+  padding-top: 20px;
+}
+
